@@ -5,8 +5,79 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Css All Syntax</title>
+    <style>
+        h1 {
+            color: red;
+            text-align: center;
+            text-decoration: underline;
+        }
+        p{
+            color: gray;
+            text-align: center;
+        }
+        #para1 {
+            color: blueviolet;
+        }
+        .lorem-header {
+            color: blue;
+        }
+        .lorem-para{
+            color: green;
+            text-align: left;
+            font-size: 20px;
+        }
+        p.center{
+            color: purple;
+        }
+        *{
+            text-align: left;
+            color: darkcyan;
+        }
+        h1, h2, p {
+            text-align: center;
+            color: dodgerblue;
+        }
+    </style>
 </head>
 <body>
-    
-</body>
+    <h1>CSS Selectors</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate repudiandae facilis aspernatur. Adipisci in modi culpa porro assumenda sunt magnam omnis architecto aspernatur dolorum quae, reiciendis cumque dolorem facere error nam odit eligendi harum ut optio ipsum eos? Officiis iusto ex soluta cupiditate aliquid nemo temporibus atque error incidunt nisi.</p>
+    <br>
+    <p>Every paragraph will be affected by the style.</p>
+    <p id="para1">Me too!</p>
+    <p>And me!</p>
+    <br>
+    <h1 class="lorem-header">Lorem ipsum dolor sit amet.</h1>
+    <p class="lorem-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa tempora a corrupti voluptatum, id ipsam rem quibusdam dolores ut corporis sit deleniti praesentium porro impedit molestias consectetur similique mollitia aliquam facilis numquam omnis. Optio, expedita odio. Atque laborum commodi reprehenderit deleniti possimus in quae! Velit odit quam optio nisi itaque.</p>
+    <br>
+    <h1 class="center">This heading will not be affected</h1>
+    <p class="center">This paragraph will be red and center-aligned.</p> 
+    <br>
+    <h1>The CSS Universal Selector</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, a asperiores consectetur libero iusto impedit ut placeat neque nesciunt perferendis at explicabo veniam quia aperiam tempore, voluptatem aliquam recusandae incidunt?</p>
+    </body>
+    <br>
+    <h1>The CSS Grouping Selector</h1>
+    <h2>Hello Rakib!</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde commodi ipsam tenetur doloremque nemo ipsa consequatur dolor, autem debitis, velit sed facilis labore sapiente, praesentium libero quisquam! Hic animi consequuntur ducimus tempora obcaecati labore cumque voluptatum nemo, praesentium nam in.</p>
+
+    <h1>Three Ways to Insert CSS</h1>
+    <!--
+        1. Inline CSS ( <h1 style="color:blue;text-align:center;"> )
+
+        1. Internal CSS ( <head>
+        <style>
+        body {
+        background-color: linen;
+        }
+        h1 {
+        color: maroon;
+        margin-left: 40px;
+        }
+        </style>
+        </head>
+        )
+
+        1. External CSS ( <link rel="stylesheet" href="mystyle.css"> )
+    -->
 </html>
